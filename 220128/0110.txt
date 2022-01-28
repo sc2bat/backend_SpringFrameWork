@@ -1,0 +1,34 @@
+src\resources\
+
+applicationContext.xml
+
+-----
+
+데이터 베이스 활용
+
+sp05 pon.xml repositories 기입
+dependency 도 추가
+
+
+구글링 maven repository
+사이트 나옴
+https://mvnrepository.com/ 필요한게 있으면 검색해서 버전에 맞춰서 기입하면됨
+
+Data Source Explorer
+
+Database Connections new - name: Spring-Oracle
+
+Oracle Thin Driver 11
+
+JAR list ojdbc6.jar 넣어주기
+
+properries
+
+servername xe
+Connection URL jdbc:oracle:thin@localhost:1521:xe
+
+port 1521
+username scott
+pass tiger
+
+ping test 해서 연결 확인

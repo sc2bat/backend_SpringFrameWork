@@ -1,0 +1,10 @@
+applicationContext 를 class 로
+
+MainClass sis.insertStudent(std);
+
+StudentInsertService sdao.insertStudent(std);
+
+StudentDao  insertStudent
+
+실행 후 db 에 레코드 하나 추가된 것 확인
+

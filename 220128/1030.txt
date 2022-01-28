@@ -1,0 +1,100 @@
+카페에 있는 파일
+
+pom.xml 을 Sp01 폴더에 넣기 
+환경보전파일?
+
+파일 자체는 손수 타이핑하는게 맞는데 
+
+이미 만들어져 있기에 가져다 씀
+
+중요한건 dependencies
+내 프로젝트에 필요한 환경을 포함시키겠다
+지금은 하나지만 필요에 따라 하나씩 추가 
+
+자바버전에 따라 configuration source target 에 1.8
+
+cmd
+
+D:\>cd spring
+D:\spring>cd Sp01
+D:\spring\Sp01>mvn compile
+scanning 프로젝트 생성되고
+BUILD SUCCESS 가 나오면 성공
+
+이클립스가 없었을 때 만드는 방법
+
+없더 target 폴더가 생성됨
+
+
+
+------------------------------------------------------------------------
+이클립스를 
+switch Workspace -> other
+
+경로 만들었던 D:\spring Launch 
+
+이클 종료 후 재실행됨
+
+처음 열리면 window preferences 글자체 조정
+workspace text file encoding other UTF-8
+
+CSS files
+HTML files
+JSP files 전부 UTF-8 로변경 적용
+
+만들었던 Sp01 을 import
+
+file -> import
+Maven -> Existing Maven Projects -> Browser -> D:\spring\Sp01
+
+메이븐 첫 실행시 다운로드 진행 사항 있음
+
+pom.xml 열기
+
+Maven Dependencies 에 여러 환경 파일이 따라와있음
+
+---------------------------------------------------------------------------
+이클립스에서 만들기
+
+file -> new -> Maven Projects
+
+create a simple project 체크
+
+Group id Spring
+Artifact Sp02
+
+name SpringEx -> Finish
+
+Sp02 생성완료
+
+생성시 자바 버전 1.5 로 되어잇음
+Sp02 내에 pom.xml 파일 열어서 dependencies 내용을 </project> 끝나기 전에 넣어주기
+<build> 내용도 역시 넣어주기
+
+simple project 인 경우에만 이렇게 넣어줌
+
+저장하면 Maven Dependencies 가 생성되고 파일이 들어와있음
+
+자바 버전때문에 x뜸 pom.xml 수정 후 프로젝트 Maven -> update Project(Alt F5) 해줘야함
+
+업데이트 완료하면 버전이 변경되어있고 x도 사라짐
+
+scr/main/java new package -> first 생성
+
+사칙연산 계산기를 만들어서
+
+first new interface -> Calculator.java
+추상메서드 생성
+
+-------------------------------------------------------------------------------------
+
+file -> new -> Maven Projects
+
+create a simple project 체크
+
+Group id Spring
+Artifact Sp03
+
+위와 같이 설정해주기
+
+Alt F5 로 업데이트까지
