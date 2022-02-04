@@ -1,0 +1,60 @@
+스프링 프레임워크
+
+구버전 이클립스를 사용할 것
+
+다른 파일 보호하기 위해서 새로운 폴더로 스위칭
+
+이클립스 삭제를 위해 
+
+C:\Users\PC
+
+.eclipse	.m2		.p2		eclipse		eclipse-workspace
+
+5개의 폴더 삭제
+
+
+구버전 설치
+https://www.eclipse.org/
+https://www.eclipse.org/downloads/packages/release
+2020 03 버전
+
+https://www.eclipse.org/downloads/packages/release/2020-03
+
+R Packages
+
+https://www.eclipse.org/downloads/packages/release/2020-03/r
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-03/R/eclipse-inst-win64.exe
+
+
+exe파일 실행 설치
+Eclipse IDE for Enterprise Java and Web Developers
+
+
+실행 완료 후 
+
+이클립스 추가 설치 
+Help - Eclipse Marketplace
+
+find : sts
+
+Spring tool 3 Standalone - install - confirm - restart now
+
+file - other - spring - Spring Legacy project 유무 확인
+
+db 설정
+server 설정
+
+
+spring mvc project
+project setting
+
+com.ezen.springmvc 보통 3단계에 걸친 ㅇㅇ
+
+생성된 SpringWeb pom.xml
+<artifactId>maven-compiler-plugin</artifactId>
+아래 1.6 -> 1.8
+
+실행 run as -- run on server
+
+
+
