@@ -1,0 +1,39 @@
+이클립스 재설치
+
+C:\Users\JAVA01
+
+.eclipse
+.m2 main 과 관련
+.p2
+eclipse
+
+4개의 파일삭제
+
+https://www.eclipse.org/downloads/packages/release/2020-03
+
+2020년 3월 버전
+
+이클립스 설치 후 
+
+이클립스 마켓 플레이스 sts
+
+spring tools3
+stand alone edition
+
+설치 후 재실행되고
+
+서버 설치, db설치
+
+
+
+pom.xml
+java 빌드 1.8 로 수정
+spring 버전 4.0.2 로 수정
+
+maven compiler plugins 1.8로 수정
+
+pom.xml 파일 수정되면 리프레시해줘야함
+
+spring framework 는 인덱스부터 시작이 아니라
+
+프로젝트 우클릭 run as server 
